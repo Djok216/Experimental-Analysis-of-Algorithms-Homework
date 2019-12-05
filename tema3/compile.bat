@@ -1,0 +1,1 @@
+g++ -static -lm -s -x c++ -Wl,--stack=268435456 -std=c++17 -O3 -D__USE_MINGW_ANSI_STDIO=0 -o gMain.exe gMain.cpp chromosome.cpp
